@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BCA9F9540090A7D887975E /* Pods_FANotifications_Example_FANotifications_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 395C013CE29A708B6ED6F3D9 /* Pods_FANotifications_Example_FANotifications_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,8 @@
 
 /* Begin PBXFileReference section */
 		1FA297A145DDB2DB3C1CEF7C /* Pods-FANotifications_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Tests/Pods-FANotifications_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		30277FE797E5C372C2A1ED9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		30277FE797E5C372C2A1ED9A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		395C013CE29A708B6ED6F3D9 /* Pods_FANotifications_Example_FANotifications_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FANotifications_Example_FANotifications_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E66D421BD0445E2E17BC1F1 /* Pods-FANotifications_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Example/Pods-FANotifications_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FANotifications_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FANotifications_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,11 +62,13 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71A37407C50B344B3FD7DE60 /* Pods-FANotifications_Example-FANotifications_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Example-FANotifications_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Example-FANotifications_Tests/Pods-FANotifications_Example-FANotifications_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1EC7138BC251289F3417EA /* Pods-FANotifications_Example-FANotifications_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Example-FANotifications_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Example-FANotifications_Tests/Pods-FANotifications_Example-FANotifications_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		857108E57EF35CE64741846C /* Pods_FANotifications_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FANotifications_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8973B5369D81E786A7AF1A2E /* Pods_FANotifications_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FANotifications_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3DFE08CEBD5C48B05F70527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		D150EFB062A70B525197F9FE /* FANotifications.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FANotifications.podspec; path = ../FANotifications.podspec; sourceTree = "<group>"; };
+		A3DFE08CEBD5C48B05F70527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D150EFB062A70B525197F9FE /* FANotifications.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FANotifications.podspec; path = ../FANotifications.podspec; sourceTree = "<group>"; };
 		DF1B9A4B57D0708570E91282 /* Pods-FANotifications_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Example/Pods-FANotifications_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E1295A71938121BA7DC57EFC /* Pods-FANotifications_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FANotifications_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FANotifications_Tests/Pods-FANotifications_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +93,7 @@
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
 				DE58E23E1D239449319F91A5 /* Pods_FANotifications_Tests.framework in Frameworks */,
+				00BCA9F9540090A7D887975E /* Pods_FANotifications_Example_FANotifications_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				857108E57EF35CE64741846C /* Pods_FANotifications_Example.framework */,
 				8973B5369D81E786A7AF1A2E /* Pods_FANotifications_Tests.framework */,
+				395C013CE29A708B6ED6F3D9 /* Pods_FANotifications_Example_FANotifications_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,6 +198,8 @@
 				4E66D421BD0445E2E17BC1F1 /* Pods-FANotifications_Example.release.xcconfig */,
 				1FA297A145DDB2DB3C1CEF7C /* Pods-FANotifications_Tests.debug.xcconfig */,
 				E1295A71938121BA7DC57EFC /* Pods-FANotifications_Tests.release.xcconfig */,
+				71A37407C50B344B3FD7DE60 /* Pods-FANotifications_Example-FANotifications_Tests.debug.xcconfig */,
+				7D1EC7138BC251289F3417EA /* Pods-FANotifications_Example-FANotifications_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -308,7 +316,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FANotifications_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-FANotifications_Example-FANotifications_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -345,7 +353,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Tests/Pods-FANotifications_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Example-FANotifications_Tests/Pods-FANotifications_Example-FANotifications_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A372D751858A157AD2262E0F /* [CP] Embed Pods Frameworks */ = {
@@ -354,16 +362,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Tests/Pods-FANotifications_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Example-FANotifications_Tests/Pods-FANotifications_Example-FANotifications_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FANotifications/FANotifications.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FANotifications.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Tests/Pods-FANotifications_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FANotifications_Example-FANotifications_Tests/Pods-FANotifications_Example-FANotifications_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B31D8A58E87D2092B1427383 /* [CP] Embed Pods Frameworks */ = {
@@ -539,6 +547,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FANotifications/FANotifications-Prefix.pch";
 				INFOPLIST_FILE = "FANotifications/FANotifications-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -554,6 +563,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FANotifications/FANotifications-Prefix.pch";
 				INFOPLIST_FILE = "FANotifications/FANotifications-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -563,7 +573,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FA297A145DDB2DB3C1CEF7C /* Pods-FANotifications_Tests.debug.xcconfig */;
+			baseConfigurationReference = 71A37407C50B344B3FD7DE60 /* Pods-FANotifications_Example-FANotifications_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -587,7 +597,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1295A71938121BA7DC57EFC /* Pods-FANotifications_Tests.release.xcconfig */;
+			baseConfigurationReference = 7D1EC7138BC251289F3417EA /* Pods-FANotifications_Example-FANotifications_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

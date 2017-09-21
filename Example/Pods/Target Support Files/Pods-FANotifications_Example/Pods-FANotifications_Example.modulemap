@@ -1,0 +1,6 @@
+framework module Pods_FANotifications_Example {
+  umbrella header "Pods-FANotifications_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

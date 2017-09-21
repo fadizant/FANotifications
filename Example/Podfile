@@ -4,8 +4,7 @@ target 'FANotifications_Example' do
   pod 'FANotifications', :path => '../'
 
   target 'FANotifications_Tests' do
-    inherit! :search_paths
+      pod 'FANotifications', :path => '../'
 
-    pod 'FBSnapshotTestCase'
   end
 end
